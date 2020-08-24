@@ -1,25 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+
+import Navbar from "./Components/Navbar/Navbar";
+import AllFather from "./Components/AllFather/AllFather";
 
 function App() {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+  const [activeWork, setActiveWork] = useState(false);
+  const [activeSkills, setActiveSkills] = useState(false);
+
+  const handleNavbar = () => {
+    setNavbarOpen(!navbarOpen);
+  };
+
+  const handleActiveWork = () => {
+    setActiveWork(!activeWork);
+  };
+
+  const handleActiveSkills = () => {
+    setActiveSkills(!activeSkills);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Navbar
+        navbarState={navbarOpen}
+        handleNavbar={handleNavbar}
+        handleActiveWork={handleActiveWork}
+        handleActiveSkills={handleActiveSkills}
+      />
+      <AllFather
+        activeStateWork={activeWork}
+        activeStateSkills={activeSkills}
+      />
+    </React.Fragment>
   );
 }
 
