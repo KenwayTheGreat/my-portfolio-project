@@ -1,0 +1,89 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "react",
+      "image": "/images/portfolio-2/React.jpg"
+    },
+    {
+      "id": 2,
+      "title": "angular",
+      "image": "/images/portfolio-2/Angular.jpg"
+    },
+    {
+      "id": 3,
+      "title": "flutter",
+      "image": "/images/portfolio-2/Flutter.jpg"
+    },
+    {
+      "id": 4,
+      "title": "bootstrap",
+      "image": "/images/portfolio-2/Bootstrap.png"
+    },
+    {
+      "id": 5,
+      "title": "unity",
+      "image": "/images/portfolio-2/Unity.jpg"
+    },
+    {
+      "id": 6,
+      "title": "photoshop",
+      "image": "/images/portfolio-2/Photoshop.png"
+    },
+    {
+      "id": 7,
+      "title": "ionic",
+      "image": "/images/portfolio-2/Ionic.png"
+    },
+    {
+      "id": 8,
+      "title": "wordpress",
+      "image": "/images/portfolio-2/Wordpress.jpg"
+    }
+  ],
+  "social": [
+    {
+      "id": 1,
+      "icon": "fab fa-facebook-square fa-4x",
+      "title": "Find My Profile On Facebook",
+      "body": "Click on the Icon",
+      "link": "https://www.facebook.com/ahmed.a.salem.9/"
+    },
+    {
+      "id": 2,
+      "icon": "fab fa-github-square fa-4x",
+      "title": "Find My Work On Github",
+      "body": "Click on the Icon",
+      "link": "https://github.com/KenwayTheGreat"
+    },
+    {
+      "id": 3,
+      "icon": "fab fa-linkedin fa-4x",
+      "title": "Find My Profile On LinkedIn",
+      "body": "Click on the Icon",
+      "link": "https://www.linkedin.com/in/ahmed-amir-salem/"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "React Project Basics",
+      "site": "https://www.google.com/"
+    },
+    {
+      "id": 2,
+      "title": "React Project Redux",
+      "site": "www.google.com"
+    },
+    {
+      "id": 3,
+      "title": "React Project 3",
+      "site": "www.google.com"
+    },
+    {
+      "id": 4,
+      "title": "React Project 1",
+      "site": "https://www.google.com/"
+    }
+  ]
+}
