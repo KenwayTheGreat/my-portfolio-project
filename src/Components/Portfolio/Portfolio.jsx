@@ -131,7 +131,7 @@ export default function Portfolio() {
           isOpen={openA}
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
-          onRequestClose={() => setOpenR(!openR)}
+          onRequestClose={() => setOpenA(!openA)}
         >
           <CloseBtn
             onClick={() => {
@@ -148,7 +148,7 @@ export default function Portfolio() {
           isOpen={openF}
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
-          onRequestClose={() => setOpenR(!openR)}
+          onRequestClose={() => setOpenF(!openF)}
         >
           <CloseBtn
             onClick={() => {
@@ -165,7 +165,7 @@ export default function Portfolio() {
           isOpen={openB}
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
-          onRequestClose={() => setOpenR(!openR)}
+          onRequestClose={() => setOpenB(!openB)}
         >
           <CloseBtn
             onClick={() => {
@@ -182,7 +182,7 @@ export default function Portfolio() {
           isOpen={openP}
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
-          onRequestClose={() => setOpenR(!openR)}
+          onRequestClose={() => setOpenP(!openP)}
         >
           <CloseBtn
             onClick={() => {
@@ -199,7 +199,7 @@ export default function Portfolio() {
           isOpen={openU}
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
-          onRequestClose={() => setOpenR(!openR)}
+          onRequestClose={() => setOpenU(!openU)}
         >
           <CloseBtn
             onClick={() => {
@@ -216,7 +216,7 @@ export default function Portfolio() {
           isOpen={openI}
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
-          onRequestClose={() => setOpenR(!openR)}
+          onRequestClose={() => setOpenI(!openI)}
         >
           <CloseBtn
             onClick={() => {
@@ -233,7 +233,7 @@ export default function Portfolio() {
           isOpen={openW}
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
-          onRequestClose={() => setOpenR(!openR)}
+          onRequestClose={() => setOpenW(!openW)}
         >
           <CloseBtn
             onClick={() => {
