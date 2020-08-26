@@ -15,9 +15,9 @@ export const Social = styled.div`
   float: left;
   box-sizing: border-box;
   padding: 100px 0 100px 60px;
-  background: ${props => props.item === 1 ? '#3b5998' : ''};
-  background: ${props => props.item === 2 ? 'black' : ''};
-  background: ${props => props.item === 3 ? '#0072b1' : ''};
+  background: ${(props) => (props.item === 1 ? "#3b5998" : "")};
+  background: ${(props) => (props.item === 2 ? "black" : "")};
+  background: ${(props) => (props.item === 3 ? "#0072b1" : "")};
 
   @media (max-width: 991px) {
     width: 100%;
@@ -34,7 +34,6 @@ export const Icon = styled.i`
   float: left;
   margin-right: 10px;
   margin-top: 25px;
-  
 `;
 
 export const Wrap = styled.p`
@@ -43,14 +42,29 @@ export const Wrap = styled.p`
   font-size: 20px;
   padding-left: 15px;
   color: #fff;
-  float:left;
+  float: left;
+
+  @media (max-width: 991px) {
+    width: 100%;
+    float: none;
+  }
 `;
 
 export const Span = styled.span`
   display: block;
   margin-bottom: 8px;
+
+  @media (max-width: 991px) {
+    width: 100%;
+    float: none;
+  }
 `;
 
 export const Span2 = styled.span`
   font-weight: normal;
+
+  @media (max-width: 991px) {
+    width: 100%;
+    float: none;
+  }
 `;

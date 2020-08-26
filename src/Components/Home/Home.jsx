@@ -39,7 +39,7 @@ export default function Home() {
           <HomeTitle style={titleProps}>Ahmed Amir Salem</HomeTitle>
           <HomeInfo style={infoProps}>Software Engineer</HomeInfo>
           <HomeDesc style={infoDesc}>
-            Iam a professional <Span>Software Engineer</Span> creating modern
+            I'm a professional <Span>Software Engineer</Span> creating modern
             and responsive designs and interfaces to Web and Mobile
             Applications. You can see my documented work; I hope we get in
             contact to work together. Thank you.

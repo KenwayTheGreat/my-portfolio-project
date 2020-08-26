@@ -53,9 +53,13 @@ export const InputText = styled(Input)`
   border-radius: 5px;
   border: solid 2px #1761a0;
   margin-top: 20px;
-  color:black;
+  color: black;
   padding-left: 15px;
   font-weight: bold;
+
+  &:focus {
+    border: solid 2px #eb5424;
+  }
 `;
 
 export const InputEmail = styled(Input)`
@@ -64,9 +68,13 @@ export const InputEmail = styled(Input)`
   border-radius: 5px;
   border: solid 2px #1761a0;
   margin-top: 20px;
-  color:black;
+  color: black;
   padding-left: 15px;
   font-weight: bold;
+
+  &:focus {
+    border: solid 2px #eb5424;
+  }
 `;
 
 export const InputExp = styled(Input)`
@@ -74,9 +82,13 @@ export const InputExp = styled(Input)`
   border-radius: 5px;
   border: solid 2px #1761a0;
   margin-top: 20px;
-  color:black;
+  color: black;
   padding: 10px;
   font-weight: bold;
+
+  &:focus {
+    border: solid 2px #eb5424;
+  }
 `;
 
 export const TextArea = styled.textarea`
@@ -91,6 +103,10 @@ export const TextArea = styled.textarea`
   color: black;
   font-weight: bold;
   margin-top: 20px;
+
+  &:focus {
+    border: solid 2px #eb5424;
+  }
 `;
 
 export const InputSubmit = styled(Input)`
@@ -110,17 +126,3 @@ export const InputSubmit = styled(Input)`
     color: #fff;
   }
 `;
-
-/* @media (max-width:575px) {
-  .drop .drop-title {
-      font-size: 40px
-  }
-  
-  .drop form .form-input input {
-      width: 100%
-  }
-  
-  .drop form {
-      width: 90%
-  }
-}*/

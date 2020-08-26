@@ -5,6 +5,10 @@ export const WorkS = styled.div`
   padding: 50px 0;
   overflow: hidden;
   background: #fff;
+
+  @media (max-width: 575px) {
+    height: auto;
+  }
 `;
 
 export const WorkTitle = styled.h2`

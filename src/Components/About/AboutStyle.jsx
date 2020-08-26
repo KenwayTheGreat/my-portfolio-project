@@ -28,6 +28,12 @@ export const InfoTitle = styled.h2`
   font-weight: bold;
   font-size: 50px;
   color: white;
+
+  @media (max-width: 991px) {
+    width: 100%;
+    padding-top: 10px;
+    float: none;
+  }
 `;
 
 export const Span = styled.span`
@@ -49,6 +55,10 @@ export const InfoDescription = styled.p`
   color: white;
   margin-bottom: 15px;
   line-height: 1.8;
+  
+  @media (max-width: 991px) {
+    padding-bottom: 30px;
+  }
 `;
 
 export const Anchor = styled.a`

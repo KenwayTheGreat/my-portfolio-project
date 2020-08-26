@@ -39,13 +39,14 @@ export const ImageWrapper = styled.div`
   &:hover > div {
     opacity: 1;
   }
+
+  @media (max-width: 561px) {
+    width: 100%;
+  }
 `;
 
 export const Image = styled.img`
   width: 100%;
-  @media (min-width: 576px) and (max-width: 768px) {
-    width: 50%;
-  }
 `;
 
 export const Overlay = styled.div`
