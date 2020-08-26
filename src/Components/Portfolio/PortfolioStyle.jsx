@@ -41,7 +41,7 @@ export const ImageWrapper = styled.div`
   }
 
   @media (max-width: 561px) {
-    width: 100%;
+    width: 50%;
   }
 `;
 
@@ -106,6 +106,7 @@ export const OverlaySpan = styled.span`
   cursor: pointer;
   border: 2px solid white;
   border-radius: 5px;
+  text-align: center;
 
   ${(props) => {
     if (props.name === "react") {

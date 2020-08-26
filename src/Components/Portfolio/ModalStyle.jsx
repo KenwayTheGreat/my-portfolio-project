@@ -160,18 +160,29 @@ export const ModalTitle = styled.h1`
   font-size: 40px;
   text-align: center;
   color: white;
+
+  @media (max-width: 575px) {
+    padding: 0px 15px;
+  }
 `;
 
 export const ModalSent = styled.h3`
-  margin-top: 95px;
+  margin-top: 65px;
   font-size: 20px;
   text-align: center;
   color: white;
+  
+
+  @media (max-width: 575px) {
+    padding: 0px 15px;
+    font-size: 15px;
+  }
 `;
 
 export const Wrap = styled.div`
   display: inline-block;
   padding: 12.5px;
+
 `;
 
 export const CardTest = styled.div`
