@@ -30,7 +30,7 @@ import {
 
 export default function Portfolio() {
   const [images, setImages] = useState([]);
-  const [projects, setProjects] = useState([]);
+  //  const [projects, setProjects] = useState([]);
   const [openR, setOpenR] = useState(false);
   const [openA, setOpenA] = useState(false);
   const [openF, setOpenF] = useState(false);
@@ -47,7 +47,7 @@ export default function Portfolio() {
     });
   }, []);
 
-  const PortfolioProjects = projects.map((projectItem) => {
+  /*const PortfolioProjects = projects.map((projectItem) => {
     return (
       <Wrap key={projectItem.id}>
         <CardTest>
@@ -58,7 +58,7 @@ export default function Portfolio() {
         </CardTest>
       </Wrap>
     );
-  });
+  });*/
 
   const PortfolioImages = images.map((imageItem) => {
     return (
@@ -124,7 +124,7 @@ export default function Portfolio() {
             <i class="fa fa-times" aria-hidden="true" />
           </CloseBtn>
           <ModalTitle>My React Projects</ModalTitle>
-          {PortfolioProjects}
+          <ModalSent>Projects will be added Soon !!!</ModalSent>
         </ProjectModalR>
 
         <ProjectModalA
