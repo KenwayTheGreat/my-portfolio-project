@@ -43,7 +43,7 @@ export default function Portfolio() {
   useEffect(() => {
     axios.get("Data/Data.json").then((res) => {
       setImages(res.data.portfolio);
-      setProjects(res.data.projects);
+     // setProjects(res.data.projects);
     });
   }, []);
 
