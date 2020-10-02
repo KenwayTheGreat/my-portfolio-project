@@ -20,7 +20,7 @@ export const ProjectModalR = styled(Modal)`
   max-height: 100vh;
   overflow-y: auto;
   animation: ${scale} 0.15s linear;
-  border-radius:10px;
+  border-radius: 10px;
   outline: 0;
 
   @media (max-width: 575px) {
@@ -38,7 +38,7 @@ export const ProjectModalA = styled(Modal)`
   max-height: 100vh;
   overflow-y: auto;
   animation: ${scale} 0.15s linear;
-  border-radius:10px;
+  border-radius: 10px;
   outline: 0;
 
   @media (max-width: 575px) {
@@ -56,7 +56,7 @@ export const ProjectModalF = styled(Modal)`
   max-height: 100vh;
   overflow-y: auto;
   animation: ${scale} 0.15s linear;
-  border-radius:10px;
+  border-radius: 10px;
   outline: 0;
 
   @media (max-width: 575px) {
@@ -74,7 +74,7 @@ export const ProjectModalB = styled(Modal)`
   max-height: 100vh;
   overflow-y: auto;
   animation: ${scale} 0.15s linear;
-  border-radius:10px;
+  border-radius: 10px;
   outline: 0;
 
   @media (max-width: 575px) {
@@ -92,7 +92,7 @@ export const ProjectModalU = styled(Modal)`
   max-height: 100vh;
   overflow-y: auto;
   animation: ${scale} 0.15s linear;
-  border-radius:10px;
+  border-radius: 10px;
   outline: 0;
 
   @media (max-width: 575px) {
@@ -110,7 +110,7 @@ export const ProjectModalP = styled(Modal)`
   max-height: 100vh;
   overflow-y: auto;
   animation: ${scale} 0.15s linear;
-  border-radius:10px;
+  border-radius: 10px;
   outline: 0;
 
   @media (max-width: 575px) {
@@ -128,7 +128,7 @@ export const ProjectModalI = styled(Modal)`
   max-height: 100vh;
   overflow-y: auto;
   animation: ${scale} 0.15s linear;
-  border-radius:10px;
+  border-radius: 10px;
   outline: 0;
 
   @media (max-width: 575px) {
@@ -146,7 +146,7 @@ export const ProjectModalW = styled(Modal)`
   max-height: 100vh;
   overflow-y: auto;
   animation: ${scale} 0.15s linear;
-  border-radius:10px;
+  border-radius: 10px;
   outline: 0;
 
   @media (max-width: 575px) {
@@ -171,7 +171,6 @@ export const ModalSent = styled.h3`
   font-size: 20px;
   text-align: center;
   color: white;
-  
 
   @media (max-width: 575px) {
     padding: 0px 15px;
@@ -180,23 +179,37 @@ export const ModalSent = styled.h3`
 `;
 
 export const Wrap = styled.div`
-  display: inline-block;
-  padding: 12.5px;
+  margin: auto;
+  width: 450px;
 
+  @media (max-width: 575px) {
+    width: 250px;
+  }
 `;
 
 export const CardTest = styled.div`
-  width: 100px;
-  height: 150px;
+  margin: 17.5px;
+  width: 25%;
+  height: 160px;
+  display: inline-block;
   text-align: center;
   background-color: black;
   border-radius: 7px;
+
+  @media (max-width: 575px) {
+    width: 40%;
+    margin: 10px;
+  }
 `;
 
 export const CardTitle = styled.h4`
-  padding-top: 5px;
+  margin-top: 15px;
   font-size: 20px;
-  height: 80px;
+  height: 70px;
+  color: white;
+`;
+
+export const CardLine = styled.hr`
   color: white;
 `;
 

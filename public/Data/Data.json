@@ -64,26 +64,26 @@
       "link": "https://www.linkedin.com/in/ahmed-amir-salem/"
     }
   ],
-  "projects": [
+  "react": [
     {
       "id": 1,
-      "title": "React Project Basics",
-      "site": "https://www.google.com/"
+      "title": "Resort Website Project",
+      "site": "https://github.com/KenwayTheGreat/resort-project"
     },
     {
       "id": 2,
-      "title": "React Project Redux",
-      "site": "www.google.com"
+      "title": "Redux Movie Searcher",
+      "site": "https://github.com/KenwayTheGreat/film-crow-project"
     },
     {
       "id": 3,
-      "title": "React Project 3",
-      "site": "www.google.com"
+      "title": "Event Manage Frontend",
+      "site": "https://github.com/KenwayTheGreat/FullStack-React-Event-Managment-Project-FrontEnd"
     },
     {
       "id": 4,
-      "title": "React Project 1",
-      "site": "https://www.google.com/"
+      "title": "Event Manage Backend",
+      "site": "https://github.com/KenwayTheGreat/FullStack-React-Event-Managment-Project-BackEnd"
     }
   ]
 }

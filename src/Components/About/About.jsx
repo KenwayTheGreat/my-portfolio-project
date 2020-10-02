@@ -5,7 +5,7 @@ import {
   InfoTitle,
   InfoTitleJ,
   InfoDescription,
-  Span
+  Span,
 } from "./AboutStyle.jsx";
 
 export default function About() {
@@ -18,15 +18,15 @@ export default function About() {
           </InfoTitle>
           <InfoTitleJ>Software Engineer</InfoTitleJ>
           <InfoDescription>
-            My name is Ahmed Amir Salem Iam a GUC (German University in Cairo)
+            My name is Ahmed Amir Salem I'm a GUC (German University in Cairo)
             Computer Science Graduate. I love working in Web development, Mobile
-            Applications and Game Development. As mentioned in the home part
-            this is a portfolio Website for my work.
+            Applications and Game Development projects. As I mentioned in the
+            home part this is a portfolio Website documenting my work.
           </InfoDescription>
           <InfoDescription>
             My goal is to build a career in software development and hopefully
             game development. I love working in creative projects and learning
-            more about designs and building great and impactful projects.
+            more about designs and building great and impactful applications.
           </InfoDescription>
         </CreativeInfo>
       </div>

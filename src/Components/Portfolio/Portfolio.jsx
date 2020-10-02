@@ -24,13 +24,14 @@ import {
   Wrap,
   CardTest,
   CardTitle,
+  CardLine,
   CardClick,
   CloseBtn,
 } from "./ModalStyle.jsx";
 
 export default function Portfolio() {
   const [images, setImages] = useState([]);
-  //  const [projects, setProjects] = useState([]);
+  const [reactProjects, setReactProjects] = useState([]);
   const [openR, setOpenR] = useState(false);
   const [openA, setOpenA] = useState(false);
   const [openF, setOpenF] = useState(false);
@@ -43,22 +44,21 @@ export default function Portfolio() {
   useEffect(() => {
     axios.get("Data/Data.json").then((res) => {
       setImages(res.data.portfolio);
-     // setProjects(res.data.projects);
+      setReactProjects(res.data.react);
     });
   }, []);
 
-  /*const PortfolioProjects = projects.map((projectItem) => {
+  const ReactProjects = reactProjects.map((projectItem) => {
     return (
-      <Wrap key={projectItem.id}>
-        <CardTest>
-          <CardTitle>{projectItem.title}</CardTitle>
-          <CardClick href={projectItem.site} target="_blank">
-            Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i>
-          </CardClick>
-        </CardTest>
-      </Wrap>
+      <CardTest key={projectItem.id}>
+        <CardTitle>{projectItem.title}</CardTitle>
+        <CardLine />
+        <CardClick href={projectItem.site} target="_blank">
+          Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </CardClick>
+      </CardTest>
     );
-  });*/
+  });
 
   const PortfolioImages = images.map((imageItem) => {
     return (
@@ -115,6 +115,11 @@ export default function Portfolio() {
           shouldCloseOnOverlayClick={true}
           onRequestClose={() => setOpenR(!openR)}
           ariaHideApp={false}
+          style={{
+            overlay: {
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+            },
+          }}
         >
           <CloseBtn
             onClick={() => {
@@ -124,7 +129,7 @@ export default function Portfolio() {
             <i class="fa fa-times" aria-hidden="true" />
           </CloseBtn>
           <ModalTitle>My React Projects</ModalTitle>
-          <ModalSent>Projects will be added Soon !!!</ModalSent>
+          <Wrap>{ReactProjects}</Wrap>
         </ProjectModalR>
 
         <ProjectModalA
@@ -132,6 +137,11 @@ export default function Portfolio() {
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
           onRequestClose={() => setOpenA(!openA)}
+          style={{
+            overlay: {
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+            },
+          }}
         >
           <CloseBtn
             onClick={() => {
@@ -149,6 +159,11 @@ export default function Portfolio() {
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
           onRequestClose={() => setOpenF(!openF)}
+          style={{
+            overlay: {
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+            },
+          }}
         >
           <CloseBtn
             onClick={() => {
@@ -166,6 +181,11 @@ export default function Portfolio() {
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
           onRequestClose={() => setOpenB(!openB)}
+          style={{
+            overlay: {
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+            },
+          }}
         >
           <CloseBtn
             onClick={() => {
@@ -183,6 +203,11 @@ export default function Portfolio() {
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
           onRequestClose={() => setOpenP(!openP)}
+          style={{
+            overlay: {
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+            },
+          }}
         >
           <CloseBtn
             onClick={() => {
@@ -200,6 +225,11 @@ export default function Portfolio() {
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
           onRequestClose={() => setOpenU(!openU)}
+          style={{
+            overlay: {
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+            },
+          }}
         >
           <CloseBtn
             onClick={() => {
@@ -217,6 +247,11 @@ export default function Portfolio() {
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
           onRequestClose={() => setOpenI(!openI)}
+          style={{
+            overlay: {
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+            },
+          }}
         >
           <CloseBtn
             onClick={() => {
@@ -234,6 +269,11 @@ export default function Portfolio() {
           ariaHideApp={false}
           shouldCloseOnOverlayClick={true}
           onRequestClose={() => setOpenW(!openW)}
+          style={{
+            overlay: {
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+            },
+          }}
         >
           <CloseBtn
             onClick={() => {
