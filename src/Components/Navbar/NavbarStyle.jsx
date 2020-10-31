@@ -49,8 +49,6 @@ export const UlList = styled(animated.ul)`
 
 export const ListItem = styled.li`
   display: inline-block;
-
-  
 `;
 
 export const AnchorCl = styled(Link)`
