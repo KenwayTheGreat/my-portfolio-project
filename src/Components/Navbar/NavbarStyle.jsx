@@ -21,8 +21,8 @@ export const Logo = styled.div`
   color: #000;
   background-repeat: no-repeat;
 
-  @media (max-width: 991px) {
-    width: 50%;
+  @media (max-width: 851px) {
+    width: 25%;
     justify-content: center;
   }
 `;
@@ -38,29 +38,26 @@ export const UlList = styled(animated.ul)`
   padding: 0;
   margin-top: 30px;
 
-
-  @media (max-width: 991px) {
-    width: 100%;
+  @media (max-width: 860px) {
+    width: 85%;
     float: none;
-    margin-top: 20px;
+    margin-top: 60px;
     display: none;
+   
   }
 `;
 
 export const ListItem = styled.li`
   display: inline-block;
 
-  @media (max-width: 991px) {
-    display: block;
-    text-align: center;
-  }
+  
 `;
 
 export const AnchorCl = styled(Link)`
   display: block;
   color: #1761a0;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;
@@ -72,12 +69,26 @@ export const AnchorCl = styled(Link)`
   &.active {
     color: #eb5424;
   }
+
+  @media (max-width:1330px  ) {
+    text-align: center;
+    font-size: 17px;
+    padding: 10px 0px;
+    margin: 3.5px;
+  }
+
+  @media (max-width:920px  ) {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0px;
+    margin: 5px;
+  }
 `;
 
 export const BurgerWrapper = styled.div`
   margin: auto 0;
 
-  @media (min-width: 769px) {
+  @media (min-width: 860px) {
     display: none;
   }
 `;
