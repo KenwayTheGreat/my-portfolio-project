@@ -30,7 +30,7 @@ export default function SocialMedia() {
         </a>
         <Wrap>
           <Span>{socialMediaItem.title}</Span>
-          <Span2><i class="fas fa-arrow-left" /> {" "} {socialMediaItem.body}</Span2>
+          <Span2><i className="fas fa-arrow-left" /> {" "} {socialMediaItem.body}</Span2>
         </Wrap>
       </Social>
     );

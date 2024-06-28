@@ -54,7 +54,7 @@ export default function Portfolio() {
         <CardTitle>{projectItem.title}</CardTitle>
         <CardLine />
         <CardClick href={projectItem.site} target="_blank">
-          Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          Learn More <i className="fa fa-arrow-right" aria-hidden="true"></i>
         </CardClick>
       </CardTest>
     );
@@ -126,7 +126,7 @@ export default function Portfolio() {
               setOpenR(!openR);
             }}
           >
-            <i class="fa fa-times" aria-hidden="true" />
+            <i className="fa fa-times" aria-hidden="true" />
           </CloseBtn>
           <ModalTitle>My React Projects</ModalTitle>
           <Wrap>{ReactProjects}</Wrap>
@@ -148,7 +148,7 @@ export default function Portfolio() {
               setOpenA(!openA);
             }}
           >
-            <i class="fa fa-times" aria-hidden="true" />
+            <i className="fa fa-times" aria-hidden="true" />
           </CloseBtn>
           <ModalTitle>Angular Projects</ModalTitle>
           <ModalSent>Projects will be added Soon !!!</ModalSent>
@@ -170,7 +170,7 @@ export default function Portfolio() {
               setOpenF(!openF);
             }}
           >
-            <i class="fa fa-times" aria-hidden="true" />
+            <i className="fa fa-times" aria-hidden="true" />
           </CloseBtn>
           <ModalTitle>Flutter Projects</ModalTitle>
           <ModalSent>Projects will be added Soon !!!</ModalSent>
@@ -192,7 +192,7 @@ export default function Portfolio() {
               setOpenB(!openB);
             }}
           >
-            <i class="fa fa-times" aria-hidden="true" />
+            <i className="fa fa-times" aria-hidden="true" />
           </CloseBtn>
           <ModalTitle>Bootstrap Projects</ModalTitle>
           <ModalSent>Projects will be added Soon !!!</ModalSent>
@@ -214,7 +214,7 @@ export default function Portfolio() {
               setOpenP(!openP);
             }}
           >
-            <i class="fa fa-times" aria-hidden="true" />
+            <i className="fa fa-times" aria-hidden="true" />
           </CloseBtn>
           <ModalTitle>Photoshop Projects</ModalTitle>
           <ModalSent>Projects will be added Soon !!!</ModalSent>
@@ -236,7 +236,7 @@ export default function Portfolio() {
               setOpenU(!openU);
             }}
           >
-            <i class="fa fa-times" aria-hidden="true" />
+            <i className="fa fa-times" aria-hidden="true" />
           </CloseBtn>
           <ModalTitle>Unity Projects</ModalTitle>
           <ModalSent>Projects will be added Soon !!!</ModalSent>
@@ -258,7 +258,7 @@ export default function Portfolio() {
               setOpenI(!openI);
             }}
           >
-            <i class="fa fa-times" aria-hidden="true" />
+            <i className="fa fa-times" aria-hidden="true" />
           </CloseBtn>
           <ModalTitle>Ionic Projects</ModalTitle>
           <ModalSent>Projects will be added Soon !!!</ModalSent>
@@ -280,7 +280,7 @@ export default function Portfolio() {
               setOpenW(!openW);
             }}
           >
-            <i class="fa fa-times" aria-hidden="true" />
+            <i className="fa fa-times" aria-hidden="true" />
           </CloseBtn>
           <ModalTitle>WordPress Projects</ModalTitle>
           <ModalSent>Projects will be added Soon !!!</ModalSent>

@@ -18,7 +18,7 @@ export default function About() {
           </InfoTitle>
           <InfoTitleJ>Software Engineer</InfoTitleJ>
           <InfoDescription>
-            My name is Ahmed Amir Salem I'm a GUC (German University in Cairo)
+            My name is Ahmed Amir Salem I&apos;m a GUC (German University in Cairo)
             Computer Science Graduate. I love working in Web development, Mobile
             Applications and Game Development projects. As I mentioned in the
             home part this is a portfolio Website documenting my work.

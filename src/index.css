@@ -17,3 +17,15 @@ code {
   width: 85%;
   margin: auto;
 }
+
+.wrapper_div {
+  padding-top: 70px;
+
+  @media (max-width: 850px) and (min-width: 450px) {
+    padding-top: 15%;
+  }
+
+  @media (max-width: 451px) {
+    padding-top: 75px;
+  }
+}
