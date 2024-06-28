@@ -1,0 +1,10 @@
+{
+  "navigation": [
+    { "name": "Home", "target": "homeSection", "offset": -300 },
+    { "name": "About", "target": "aboutSection", "offset": -50 },
+    { "name": "Work", "target": "workSection", "offset": -30 },
+    { "name": "Portfolio", "target": "portfolioSection", "offset": -60 },
+    { "name": "Resume", "target": "resumeSection", "offset": -70 },
+    { "name": "Contact", "target": "contactSection", "offset": -40 }
+  ]
+}
